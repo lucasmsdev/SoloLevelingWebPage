@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  
+  body {
+    background-color: #111;
+    color: white;
+    padding: 20px;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f1f1f;
+    padding: 15px 20px;
+    border-radius: 8px;
+  }
+  
+  header h1 {
+    font-size: 24px;
+  }
+  
+  header nav a {
+    margin-left: 15px;
+    color: #00aaff;
+    text-decoration: none;
+  }
+  
+  .principal {
+    display: flex;
+    margin-top: 30px;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  .principal img {
+    width: 250px;
+    border-radius: 10px;
+  }
+  
+  .descricao h2 {
+    margin-bottom: 10px;
+    color: #00aaff;
+  }
+  
+  .descricao p {
+    max-width: 500px;
+    line-height: 1.6;
+  }
+  
+  .galeria {
+    margin-top: 40px;
+  }
+  
+  .galeria h2 {
+    margin-bottom: 20px;
+    color: #00aaff;
+  }
+  
+  .grid-personagens {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .grid-personagens div {
+    background-color: #1f1f1f;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .grid-personagens img {
+    width: 100%;
+    border-radius: 8px;
+    height: 250px;
+    object-fit: cover;
+  }
+  
+  .grid-personagens p {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
